@@ -17,11 +17,11 @@ Perform a comparative performance study of different clustering algorithms using
 - Adjusted Rand Index (ARI)
 
 ## Results
-| **Algorithm**         | **Preprocessing**  | **No. of Clusters** | **Silhouette Score** | **ARI** |  
-|------------------------|--------------------|----------------------|-----------------------|---------|  
-| KMeans                | StandardScaler     | 3                    | 0.55                 | 0.68    |  
-| Agglomerative Clustering | MinMaxScaler     | 3                    | 0.52                 | 0.63    |  
-| DBSCAN                | None              | -                    | 0.48                 | 0.60    |
+| **Algorithm**            | **Preprocessing**  | **No. of Clusters** | **Silhouette Score** | 
+|--------------------------|--------------------|----------------------|---------------------|
+| KMeans                   | StandardScaler     | 3                    | 0.478724               
+| Agglomerative Clustering | MinMaxScaler       | 3                    | 0.445540             
+| DBSCAN                   | None               | 2                    | 0.349198               
 
 ## Conclusion
 - KMeans showed the best performance based on silhouette score.
