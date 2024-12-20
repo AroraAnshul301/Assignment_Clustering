@@ -12,9 +12,9 @@ Perform a comparative performance study of different clustering algorithms using
 - Agglomerative Clustering
 - DBSCAN
 
-## Evaluation Metrics
+## Evaluation Metric
 - Silhouette Score
-- Adjusted Rand Index (ARI)
+
 
 ## Results
 | **Algorithm**            | **Preprocessing**  | **No. of Clusters** | **Silhouette Score** | 
